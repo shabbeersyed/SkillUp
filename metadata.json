@@ -1,0 +1,5 @@
+{
+  "name": "SkillUp Agent",
+  "description": "AI-powered career path architect that analyzes your resume, maps your skills, and provides a customized roadmap for professional growth.",
+  "requestFramePermissions": []
+}
