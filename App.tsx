@@ -1756,12 +1756,12 @@ export default function App() {
     <div className="flex h-screen bg-[#F8FAFC] overflow-hidden">
       {/* Sidebar */}
       <aside className="w-64 bg-white border-r border-slate-200 flex flex-col shrink-0">
-        <div className="p-6 flex items-center gap-2">
-          <div className="w-8 h-8 bg-brand-primary rounded flex items-center justify-center">
-            <BrainCircuit className="text-white" size={20} />
+        <div className="p-6 flex items-center">
+          <span className="font-bold text-xl tracking-tight text-slate-800">Skill</span>
+          <div className="w-7 h-7 bg-brand-primary rounded-sm flex items-center justify-center ml-0.5">
+            <span className="text-white font-bold text-lg leading-none">Up</span>
           </div>
-          <span className="font-bold text-xl tracking-tight text-slate-800">SkillUp</span>
-          <span className="text-[10px] bg-slate-100 px-1.5 py-0.5 rounded font-bold text-slate-400 uppercase tracking-widest">ENTERPRISE</span>
+          <span className="text-[10px] bg-slate-100 px-1.5 py-0.5 rounded font-bold text-slate-400 uppercase tracking-widest ml-2">ENTERPRISE</span>
         </div>
 
         <nav className="flex-1 px-4 space-y-1">
