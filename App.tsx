@@ -1756,12 +1756,15 @@ export default function App() {
     <div className="flex h-screen bg-[#F8FAFC] overflow-hidden">
       {/* Sidebar */}
       <aside className="w-64 bg-white border-r border-slate-200 flex flex-col shrink-0">
-        <div className="p-6 flex items-center">
-          <span className="font-bold text-xl tracking-tight text-slate-800">Skill</span>
-          <div className="w-7 h-7 bg-brand-primary rounded-sm flex items-center justify-center ml-0.5">
-            <span className="text-white font-bold text-lg leading-none">Up</span>
+        <div className="p-6 flex items-center group cursor-default">
+          <span className="font-bold text-xl tracking-tighter text-slate-900">Skill</span>
+          <div className="w-[26px] h-[26px] bg-gradient-to-br from-brand-primary to-brand-primaryHover rounded-[3px] flex items-center justify-center ml-0.5 shadow-[0_1px_2px_rgba(0,0,0,0.15)] border border-white/10">
+            <span className="text-white font-bold text-[15px] leading-none tracking-tight">Up</span>
           </div>
-          <span className="text-[10px] bg-slate-100 px-1.5 py-0.5 rounded font-bold text-slate-400 uppercase tracking-widest ml-2">ENTERPRISE</span>
+          <div className="ml-3 flex items-center">
+            <div className="h-3 w-[1px] bg-slate-200 mr-3" />
+            <span className="text-[9px] font-bold text-slate-400 uppercase tracking-[0.18em]">Enterprise</span>
+          </div>
         </div>
 
         <nav className="flex-1 px-4 space-y-1">
